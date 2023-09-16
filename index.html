@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e493914633.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/n.png" alt="logo" width="20%" >
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Devoloper</p>
+                <h1>Hi, I'm<span>Nabamit</span><br>Dutta From INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-image.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate software engineer student. I'm just started in building
+                         and maintaining web application.<br>I'm skilled in C,C++,HTML,CSS and Js.
+                        I'm also an effective communicator and collaborator,
+                         and I am always looking for new challenges and opportunities to learn.
+                         In my free time, I enjoy learning about new web development technologies and trends. I am also a big fan of open source software, and I contribute to several open source projects.
+
+                         I am excited about the future of web development, and I am eager to use my skills
+                          to create innovative and useful websites.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div><!--skill-->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devolopment</span><br>Front-end Devolopment</li>
+                            <li><span>App Devolopment</span><br>Building Android/ios app</li>
+                            <li><span>UI/UX</UX></span><br>Design Webpage and interfaces</li>
+                        </ul>
+                    </div><!--experiences-->
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Intership oissis infobyets</li>
+                            <li><span>2019 - 2021</span><br>Ruzcor starapp pvt. ltd.</li>
+                            <li><span>2016 - 2017</UX></span><br>Intership at ekart ecommerce</li>
+                        </ul>
+                    </div><!--education-->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>pursuing B.Tech dgree from JISCE</li>
+                            <li><span>2021</span><br>I complete my Higher-secondary education in school</li>
+                            <li><span>2019</UX></span><br>Pass out from Elimentary school</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------services-------------------->
+    <div class="services">
+        <div class="conteiner">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code " style="color: #fff;"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is an important part of creating a successful website.
+                         A well-designed website will be both visually appealing and easy to use, 
+                        which will encourage users to stay on the site longer and come back again.</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop "></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design is an important part of creating any digital product.
+                         A well-designed product will be both visually appealing and easy to use,
+                         which will encourage users to keep coming back.</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store "></i>
+                    <h2>App Devolopment</h2>
+                    <p>App development is the process of creating software
+                         applications that run on mobile devices, such as smartphones and tablets</p>
+                         <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-------------------------portfolio-------------------->
+ <div id="portfolio">
+    <div class="conteiner">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                <h3>Oline Shoping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#contact" class="btn">See More</a>
+    </div>
+ </div>
+ <!-------------------------contact-------------------->
+ <div id="contact">
+<div class="conteiner">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>Nabamitdutta14@email.com</p>
+            <p><i class="fa-solid fa-phone"></i>8584030950</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+            <a href="images/my cv.docx" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <input type="text" name="Whatsapp" placeholder="Your Number" required>
+                <textarea name="Message"  rows="6" placeholder="Your Massage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright @Nabamit.Made with<i class="fa-solid fa-heart" style="color: #f50a45;"></i>Your suport</p>
+</div>
+ </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
